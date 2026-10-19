@@ -3,8 +3,8 @@ build-backend = "setuptools.build_meta"
 requires = ["setuptools"]
 
 [project]
-authors = [{ name = "Samuel Pröll", email = "info@samproell.at" }]
-description = "Yet another implementation of remote Photoplethysmography in Python"
+authors = ["Rohan Lenka", "Shashwat Verma", "Apoorva Pradhan"]
+description = "Implementation of remote Photoplethysmography in Python"
 dynamic = ["version"]
 dependencies = [
     "hydra-core",
@@ -14,8 +14,7 @@ dependencies = [
     "pandas",
     "scipy",
 ]
-license = { file = "LICENSE" }
-name = "yarppg"
+name = "CardioSight"
 readme = "README.md"
 
 [project.optional-dependencies]
@@ -31,7 +30,7 @@ dev = [
 ]
 
 [project.urls]
-repository = "https://github.com/SamProell/yarppg"
+repository = "https://github.com/Rohan-Lenka/Cardio-Sight"
 
 [project.scripts]
 run-yarppg = "yarppg.main:run_yarppg"
