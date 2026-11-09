@@ -3,7 +3,11 @@ build-backend = "setuptools.build_meta"
 requires = ["setuptools"]
 
 [project]
-authors = ["Rohan Lenka", "Shashwat Verma", "Apoorva Pradhan"]
+authors = [
+    { name = "Rohan Lenka" },
+    { name = "Shashwat Verma" },
+    { name = "Apoorva Pradhan" },
+]
 description = "Implementation of remote Photoplethysmography in Python"
 dynamic = ["version"]
 dependencies = [
