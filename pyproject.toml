@@ -13,7 +13,7 @@ dynamic = ["version"]
 dependencies = [
     "hydra-core",
     "mediapipe>=0.10.14,<1.0",
-    "numpy",
+    "numpy>=2.0.2",
     "opencv-contrib-python",
     "pandas",
     "scipy",
