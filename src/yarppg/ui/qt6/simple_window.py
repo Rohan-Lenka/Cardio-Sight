@@ -43,7 +43,7 @@ class SimpleQt6Window(QtWidgets.QMainWindow):
         self.roi_alpha = roi_alpha
 
         self.history = deque(maxlen=150)
-        self.setWindowTitle("yet another rPPG")
+        self.setWindowTitle("CardioSight")
         self._init_ui()
         self.tracker = yarppg.FpsTracker()
         self.new_image.connect(self.update_image)
