@@ -12,7 +12,7 @@ description = "Implementation of remote Photoplethysmography in Python"
 dynamic = ["version"]
 dependencies = [
     "hydra-core",
-    "mediapipe",
+    "mediapipe>=0.10.14,<1.0",
     "numpy",
     "opencv-contrib-python",
     "pandas",
